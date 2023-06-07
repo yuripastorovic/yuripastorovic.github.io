@@ -1,7 +1,170 @@
 <!DOCTYPE html>
-</html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evangelion - Página de inicio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>This is yuripastorovic.</p>
+  <header>
+    <h1>Evangelion</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Acerca de</a></li>
+        <li><a href="#characters">Personajes</a></li>
+        <li><a href="#episodes">Episodios</a></li>
+        <li><a href="#theories">Teorías</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#contact">Contacto</a></li>
+		<!-- Botón o elemento que activa la reproducción de música -->
+  <input type="image" id="play-music-button" src="sound.png" height="30px" width="auto"  background-color="#ffffff">
+  <input type="range" id="volume" name="volume" min="0" max="100" value="15" step="1">
+  <input type="image" id="skip-music-button" src="sound.png" height="30px" width="auto"  background-color="#ffffff">
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <!-- Audio de música de fondo -->
+  <audio id="background-music" loop>
+	<source src="evSong.mp3" type="audio/mpeg">
+	<source src="batSong.mp3" type="audio/mpeg">
+	<source src="piaSong.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+    // Verificar si se ha mostrado el mensaje de bienvenida antes
+    if (!localStorage.getItem('welcomeMessageShown')) {
+      // Mostrar el mensaje de bienvenida
+      alert('Bienvenido/a a la página de Evangelion');
+
+      // Marcar que se ha mostrado el mensaje de bienvenida
+      localStorage.setItem('welcomeMessageShown', 'true');
+    }
+  </script>
+<script>
+  // JavaScript audio
+  window.addEventListener('DOMContentLoaded', function() {
+    var playMusicButton = document.getElementById('play-music-button');
+    var skipMusicButton = document.getElementById('skip-music-button');
+    var backgroundMusic = document.getElementById('background-music');
+    var volumeRange = document.getElementById('volume');
+    var isPlaying = false; // Variable para controlar el estado de reproducción
+    var currentSongIndex = 0; // Índice de la canción actual
+
+    var songs = [
+      'evSong.mp3',
+      'batSong.mp3',
+      'piaSong.mp3'
+    ];
+
+    playMusicButton.addEventListener('click', function() {
+      if (isPlaying) {
+        backgroundMusic.pause(); // Pausar la reproducción si ya está reproduciendo
+        isPlaying = false;
+      } else {
+        backgroundMusic.volume = volumeRange.value / 100; // Establecer el volumen según el valor del selector
+        backgroundMusic.play(); // Iniciar la reproducción si no se está reproduciendo
+        isPlaying = true;
+      }
+    });
+
+    skipMusicButton.addEventListener('click', function() {
+      currentSongIndex = (currentSongIndex + 1) % songs.length; // Cambiar al índice de la siguiente canción
+      backgroundMusic.src = songs[currentSongIndex]; // Establecer la nueva canción
+      backgroundMusic.play(); // Iniciar la reproducción
+    });
+
+    volumeRange.addEventListener('input', function() {
+      backgroundMusic.volume = volumeRange.value / 100; // Actualizar el volumen según el valor del selector
+    });
+  });
+</script>
+  
+<section id="about" class="parallax" style="margin-top: 100%;">
+  <div class="parallax-content">
+    <h2>Acerca de Evangelion</h2>
+    <p>Coloca aquí una descripción breve de la serie Evangelion y su trama principal.</p>
+  </div>
+</section>
+
+	
+    <section id="characters" class="parallax">
+	<div class="parallax-content">
+      <h2>Personajes</h2>
+      <ul>
+        <li>Nombre del personaje 1</li>
+        <li>Nombre del personaje 2</li>
+        <li>Nombre del personaje 3</li>
+        <!-- Agrega más personajes -->
+      </ul>
+	</div>
+    </section>
+	
+	<section id="episodes" class="parallax">
+	<div class="parallax-content">
+      <h2>Episodios</h2>
+      <ol>
+        <li>Episodio 1: Título del episodio</li>
+        <li>Episodio 2: Título del episodio</li>
+        <li>Episodio 3: Título del episodio</li>
+        <!-- Agrega más episodios -->
+      </ol>
+	</div>
+    </section>
+	
+	<section id="theories" class="parallax">
+	<div class="parallax-content">
+      <h2>Teorías</h2>
+      <p>Explora las teorías y simbolismos presentes en Evangelion y cómo han sido interpretados por los fanáticos.</p>
+	</div>
+	</section>
+	
+	<section id="gallery" class="parallax">
+	<div class="parallax-content">
+	    <h2>Galería</h2>
+		<img class="scaled-image" src="eva1.jpg" alt="Imagen 1" onclick="openImage(this.src);">
+		<img class="scaled-image" src="eva2.jpg" alt="Imagen 2" onclick="openImage(this.src);">
+		<img class="scaled-image" src="eva1.jpg" alt="Imagen 3" onclick="openImage(this.src);">
+	</div>
+	</section>
+	
+  <script>
+    var imageWindow;
+
+    function openImage(src) {
+      imageWindow = window.open(src, "_blank", "width=auto");
+    }
+  </script>
+	
+	
+
+    <section id="contact" class="parallax">
+	<div class="parallax-content">
+		<fieldset>
+	<legend style="padding-top: 10px; border-top: 10px solid transparent; margin-bottom: -40px;"><h2>Contacto</h2></legend>
+      <p style="margin-bottom: -10px;">Si deseas contactar con el administrador de la página, puedes completar el siguiente formulario:</p>
+      <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" maxlength="10" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email"  maxlength="3" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message"  maxlength="1" required></textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+	  </fieldset>
+	  </div>
+    </section>
+	
+  </main>
+
+  <footer>
+    <p style="font-size: 1.5em;">2023 - yuripastorovic &copy;</p>
+  </footer>
 </body>
 </html>
