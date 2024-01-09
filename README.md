@@ -6,28 +6,44 @@
 
 ## Habilidades
 
-- **Lenguajes de programación:**
+- **Lenguajes de programación**
   - Sólida formación en Java
     - https://github.com/yuripastorovic/Java
-  - Sólida formacion en Python
+  - Sólida formación en Python
     - https://github.com/yuripastorovic/Python
-  - Conocimientos en C#
+  - Conocimientos en C# y Arduino
     - https://github.com/yuripastorovic/Python
-  - Conocimientos en HTML y CSS
-    - https://github.com/yuripastorovic/Python
-  - MySQL
-    - https://github.com/yuripastorovic/Python
-  - Unity
+  - Conocimientos en Unity
     - https://github.com/yuripastorovic/Jueguito
+
+- **Lenguajes de Bases de Datos**
+  - Sólida formacion MySQL, MariaDB y SQLite
+    - https://github.com/yuripastorovic/Python
+  - Firebird
+    - https://github.com/yuripastorovic/Python
+
+- **Programación web**
+  - Conocimientos en HTML, CSS, JavaScript y Markdown
+    - https://github.com/yuripastorovic/Python
+  - Java Web Servlets
+    - https://github.com/yuripastorovic/Java
+
+- **Sistemas Operativos**
+  - CMD Windows
+  - Terminal Linux
+  - Android
+ 
 - **Herramientas:**
-  - Linux
-  - Apache
-  - Android Studio
+  - Apache y XAMPP
+
 - **Otros:**
   - Diseño por ordenador: Gimp, Photoshop
   - Atención al cliente
   - Seguridad privada
   - Inglés: Nivel avanzado
+  - Carnet de conducir y vehiculo propio
+  - Disponibilidad absoluta
+
 ---
 
 ## Resumen Profesional
