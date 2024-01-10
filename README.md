@@ -35,6 +35,7 @@
  
 - **Herramientas:**
   - Apache y XAMPP
+  - Git
 
 - **Otros:**
   - Diseño por ordenador: Gimp, Photoshop
