@@ -75,7 +75,7 @@ Desarrollador de aplicaciones multiplataforma con pasión por el aprendizaje con
   
 ### Página personal | 2024
 - Creación de una página personal que muestra información laboral a modo de CV virtual.
-- [Enlace a la página](https://yuripastorovic.github.io/)
+- [Enlace a la página](assets/img/Web.png)
 
 ### Trabajos en Arduino | 2024
 - Repositorio personal donde comparto mis proyectos en Arduino.)
