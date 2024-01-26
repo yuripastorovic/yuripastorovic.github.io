@@ -56,18 +56,29 @@ Desarrollador de aplicaciones multiplataforma con pasión por el aprendizaje con
 ### Time's Up Party on Android | 2023
 - Desarrollo de una versión en Android (Java) del juego Time's Up Party.
 - No existe una versión en PlayStore; basada en la versión de iOs.
-![Alt](https://www.leagueoflegends.com/static/logo-1200-04b3cefafba917c9c571f9244fd28a1e.png)
+![Alt](https://yuripastorovic.github.io/assets/img/timesup.png)
 -  [Enlace al proyecto](https://github.com/yuripastorovic/TimesUpParty)
 
+### Editor de notas | 2024
+- Creación de un editor de texto para escritorio en JavaFX.
+![Alt](https://yuripastorovic.github.io/assets/img/EditorNotas.png)
 
+### App Cconsola | 2024
+- Creación de una aplicacion de consola para java que gestiona un centro de estudio.
+![Alt](https://yuripastorovic.github.io/assets/img/appconsole.png)
+- [Enlace al proyecto](https://github.com/yuripastorovic/GestionCentroJava)
+
+### Proyecto TFG | 2023
+- Desarrollo de un juego en Unity 2D de estilo Castlevania.
+![Alt](https://yuripastorovic.github.io/assets/img/ProjectTFG.png)
+- [Enlace al proyecto](https://github.com/ntonioLeon/Test)
+  
 ### Página personal | 2024
 - Creación de una página personal que muestra información laboral a modo de CV virtual.
-![Alt](https://www.leagueoflegends.com/static/logo-1200-04b3cefafba917c9c571f9244fd28a1e.png)
 - [Enlace a la página](https://yuripastorovic.github.io/)
 
 ### Trabajos en Arduino | 2024
-- Repositorio personal donde comparto mis proyectos en Arduino.
-![Alt](https://www.leagueoflegends.com/static/logo-1200-04b3cefafba917c9c571f9244fd28a1e.png)
+- Repositorio personal donde comparto mis proyectos en Arduino.)
 - [Enlace al repositorio](https://github.com/yuripastorovic/Arduino)
 ---
 
@@ -88,14 +99,6 @@ Desarrollador de aplicaciones multiplataforma con pasión por el aprendizaje con
 
 Soy una persona creativa y curiosa que disfruta de expresarse a través del arte y la tecnología. Me gusta pintar, dibujar, desarrollar proyectos propios, trabajar en Photoshop y AutoCAD.
 - Pintar
-![Alt](https://www.leagueoflegends.com/static/logo-1200-04b3cefafba917c9c571f9244fd28a1e.png)
-"Amor de madre" 
 - Dibujar
-![Alt](https://www.leagueoflegends.com/static/logo-1200-04b3cefafba917c9c571f9244fd28a1e.png)
-"Cardos" 
-- AutoCad
-![Alt](https://www.leagueoflegends.com/static/logo-1200-04b3cefafba917c9c571f9244fd28a1e.png)
-"Proyecto rehabilitación de La Ricarda"
-![Alt](https://www.leagueoflegends.com/static/logo-1200-04b3cefafba917c9c571f9244fd28a1e.png)
-"Proyecto rehabilitación Casa Bloc" 
+- AutoCad"
 ---
