@@ -102,5 +102,5 @@ Desarrollador de aplicaciones multiplataforma con pasión por el aprendizaje con
 Soy una persona creativa y curiosa que disfruta de expresarse a través del arte y la tecnología. Me gusta pintar, dibujar, desarrollar proyectos propios, trabajar en Photoshop y AutoCAD.
 - Pintar
 - Dibujar
-- AutoCad"
+- AutoCad
 ---
